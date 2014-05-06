@@ -25,7 +25,8 @@ do not name variables with single letters.
 function User(options){
   var key
   for(key in options) {
-    if(!options.hasOwnProperty(key)) {
+    if(!options.hasOwnProperty(key)) {graff}
+    
       continue
     }
     this[key] = options[key]
